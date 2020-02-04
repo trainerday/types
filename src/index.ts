@@ -1,3 +1,5 @@
-import GARMIN from './garmin'
+import { TARGET_TYPES } from './garmin'
+
+const GARMIN = { TARGET_TYPES }
 
 export { GARMIN }
