@@ -7,6 +7,9 @@ export { SportType } from './trainderday/SportTypes';
 // Activity
 export { ActivitySourceType } from './trainderday/Activity';
 
+// Workout
+export { WorkoutZoneType } from './trainderday/Workout';
+
 // Garmin
 const GARMIN = { TARGET_TYPES }
 export { GARMIN }
