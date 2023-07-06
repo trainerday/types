@@ -4,12 +4,16 @@ import { TARGET_TYPES } from './garmin'
 export { SegmentSoundEffectType } from './trainderday/SoundEffects';
 export { SportType } from './trainderday/SportTypes';
 export { SortType } from './trainderday/SortTypes';
+export { QueueActionNameTypes } from './trainderday/QueueActionNameTypes';
 
 // Activity
 export { ActivitySourceType } from './trainderday/Activity';
 
 // Workout
-export { WorkoutZoneType } from './trainderday/Workout';
+export {
+    WorkoutZoneType,
+    BaseSegmentIndex
+} from './trainderday/Workout';
 
 // Garmin
 const GARMIN = { TARGET_TYPES }
