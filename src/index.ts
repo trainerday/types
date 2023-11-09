@@ -12,7 +12,8 @@ export { ActivitySourceType } from './trainderday/Activity';
 // Workout
 export {
     WorkoutZoneType,
-    BaseSegmentIndex
+    BaseSegmentIndex,
+    SegmentType
 } from './trainderday/Workout';
 
 // Garmin

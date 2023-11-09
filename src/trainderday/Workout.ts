@@ -17,3 +17,21 @@ export enum BaseSegmentIndex {
   DESCRIPTIONS,
   SLOPE
 }
+
+export enum SegmentType {
+  WARM_UP = 'warm-up',
+  ACTIVE = 'active',
+  COOL_DOWN = 'cooldown',
+  INTERVAL = 'interval',
+  REST = 'rest',
+  FREE_RIDE = 'free-ride',
+  OPEN_ENDED = 'open-ended',
+  SFR = 'sfr',
+  LAP = 'lap',
+  CLIMB = 'climb',
+  PLUS = '+',
+  MINUS = '-',
+  SLOPE = 'slope',
+  HR = 'hr',
+  ERG = 'erg'
+}
