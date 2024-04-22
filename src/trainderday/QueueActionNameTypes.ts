@@ -10,12 +10,12 @@ export enum QueueActionNameTypes {
   DELETE_WORKOUTS_BULK = 'delete_workouts_bulk',
   DELETE_CALENDAR_EVENT = 'delete_calendar_event',
   SYNC_FROM_TD_CALENDAR = 'sync_from_td_calendar',
+  SET_USER_CONNECTIONS_STATE = 'set_user_connections_state',
   CREATE_WORKOUT_AND_ASSIGN_EVENT_ID = 'create_workout_and_assign_event_id',
   CREATE_WORKOUTS_BULK_AND_ASSIGN_EVENT_IDS = 'create_workouts_bulk_and_assign_event_ids',
   CREATE_ACTIVITY_AND_ASSIGN_HAS_TP_SENT = 'create_activity_and_assign_has_trainingPeaks_sent',
   CREATE_ACTIVITY_AND_ASSIGN_HAS_DROPBOX_SENT = 'create_activity_and_assign_has_dropbox_sent',
   CREATE_ACTIVITY_AND_ASSIGN_STRAVA_UPLOAD_ID = 'create_activity_and_assign_strava_upload_id',
-  CREATE_ACTIVITY_AND_ASSIGN_CONCEPT2_ID = 'create_activity_and_assign_concept2_id',
   INCREASE_WORKOUT_POPULARITY_INDEX = 'increase_workout_popularity_index',
-  INCREASE_PLAN_POPULARITY_INDEX = 'increase_plan_popularity_index',
+  INCREASE_PLAN_POPULARITY_INDEX = 'increase_plan_popularity_index'
 }
