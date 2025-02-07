@@ -22,5 +22,11 @@ export enum SegmentSoundEffectType {
   FOUR_BEEPS_HIGH_VOLUME,
 
   /** Use 3 short and 1 long signals. About 20%, 50%, 80%, 100% volume */
-  FOUR_BEEPS_PROGRESSIVE_VOLUME
+  FOUR_BEEPS_PROGRESSIVE_VOLUME,
+
+  /** Use a long signal. About 32% volume */
+  SINGLE_BEEP_LOW_VOLUME,
+
+  /** Use a long signal. About 56% volume */
+  SINGLE_BEEP_MID_VOLUME
 }
