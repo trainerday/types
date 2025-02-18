@@ -14,9 +14,5 @@ export { ActivitySourceType } from './trainderday/Activity'
 // Workout
 export { WorkoutZoneType, BaseSegmentIndex, SegmentType } from './trainderday/Workout'
 
-// HRConverterRatiosZones
-export {
-  HRConverterRatiosZoneItemType,
-  HRConverterRatiosZonesType,
-  HRConverterRatiosZonesDefault
-} from './trainderday/HRConverterRatios'
+// Zones
+export { ZoneItemType, ZonesType, defaultHeartRateZones } from './trainderday/zones'
