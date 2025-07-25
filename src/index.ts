@@ -16,3 +16,7 @@ export { WorkoutZoneType, BaseSegmentIndex, SegmentType } from './trainderday/Wo
 
 // Zones
 export { ZoneItemType, ZonesType, defaultHeartRateZones } from './trainderday/zones'
+
+// Coach Jack
+export * as CoachJackTypes from './trainderday/coachJack/Workout'
+export * as CoachJackDefaults from './trainderday/coachJack/defaults'
