@@ -59,7 +59,6 @@ export type Workout = {
   eventDate?: string
   eventType?: string
   eventDuration?: string
-  isSplit: boolean
 }
 export type TDWorkout = {
   hasStructure: boolean
