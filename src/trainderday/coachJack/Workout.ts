@@ -42,7 +42,6 @@ export type StructureIndexes = {
 }
 export type Segments = [number, number, number, number?, number?, string?, any[]?][]
 export type Workout = {
-  workoutName: string
   daysBeforeEvent: number
   workoutSick: boolean
   description?: string
